@@ -1,0 +1,164 @@
+{
+  "data": {
+    "subject": [
+      {
+        "status": "new",
+        "subjectname": "prog",
+        "creditvalue": "4",
+        "description": "p",
+        "date": "2015-11-08T16:23:30.347Z",
+        "createdAt": "2015-11-08T16:23:30.349Z",
+        "updatedAt": "2015-11-08T16:23:30.349Z",
+        "id": 1
+      },
+      {
+        "status": "new",
+        "subjectname": "Analizis 2",
+        "creditvalue": "2",
+        "description": "adada",
+        "date": "2015-11-08T16:23:46.599Z",
+        "createdAt": "2015-11-08T16:23:46.600Z",
+        "updatedAt": "2015-11-08T16:23:46.600Z",
+        "id": 2
+      }
+    ],
+    "user": [
+      {
+        "forename": "Molnár",
+        "surname": "Lajos",
+        "neptun": "wtcscq",
+        "password": "$2a$10$KmWdMuN4RgJxUfzrFOZxtuL2MbUg0ww4/9NgYfSXD3/zUpnifZ0dO",
+        "role": false,
+        "createdAt": "2015-11-08T16:18:35.407Z",
+        "updatedAt": "2015-11-08T16:18:35.407Z",
+        "id": 1
+      },
+      {
+        "forename": "admin",
+        "surname": "admin",
+        "neptun": "admin",
+        "password": "$2a$10$nQLiJp9aNQ6gKl41oe7dy.p7p/m28YLUJTp0VngxwyUnE1tEYA0A.",
+        "role": true,
+        "createdAt": "2015-11-08T16:19:11.838Z",
+        "updatedAt": "2015-11-08T16:19:11.838Z",
+        "id": 2
+      },
+      {
+        "forename": "o",
+        "surname": "o",
+        "neptun": "o",
+        "password": "$2a$10$qRbIMtil5XwpvoWk8S/Dyuc5moRcoR.z5RLgK082sj/vpt2V9e/bW",
+        "role": false,
+        "createdAt": "2015-11-08T16:24:16.633Z",
+        "updatedAt": "2015-11-08T16:24:16.633Z",
+        "id": 3
+      }
+    ],
+    "usrelation": [
+      {
+        "uid": 1,
+        "sid": 1,
+        "createdAt": "2015-11-08T16:23:59.908Z",
+        "updatedAt": "2015-11-08T16:23:59.908Z",
+        "id": 1
+      },
+      {
+        "uid": 3,
+        "sid": 1,
+        "createdAt": "2015-11-08T16:24:25.049Z",
+        "updatedAt": "2015-11-08T16:24:25.049Z",
+        "id": 2
+      }
+    ]
+  },
+  "schema": {
+    "subject": {
+      "date": {
+        "type": "datetime"
+      },
+      "subjectname": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "creditvalue": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "role": {
+        "type": "boolean",
+        "defaultsTo": false
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "usrelation": {
+      "uid": {
+        "type": "integer"
+      },
+      "sid": {
+        "type": "integer"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "subject": {
+      "id": 2
+    },
+    "user": {
+      "id": 3
+    },
+    "usrelation": {
+      "id": 2
+    }
+  }
+}
