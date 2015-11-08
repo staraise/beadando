@@ -4,13 +4,9 @@
 ###Funkcionális követelmények
 
 Tanulóként szeretnék tantárgyakat felvenni és leadni. --> Tantárgy felvétel
-
 Tanulóként szeretném ha láthatnám az eddig felvett tantárgyaim --> Felvett tárgyak
-
 Tanárként szeretném látni az összes tantárgyat.
-
 Tanárként szeretnék új tantárgyat létrehozni, szerkeszteni és törölni.
-
 A tanulók és a tanárok bejelentkezés után használhatják a funkciókat.
 
 A főoldalon az alkalmazás ismertetése jelenik meg.
