@@ -1,152 +1,13 @@
 {
   "data": {
-    "subject": [
-      {
-        "status": "new",
-        "subjectname": "prog",
-        "creditvalue": "4",
-        "description": "prog",
-        "date": "2015-11-08T01:08:48.881Z",
-        "createdAt": "2015-11-08T01:08:48.883Z",
-        "updatedAt": "2015-11-08T01:08:48.883Z",
-        "id": 7
-      },
-      {
-        "status": "new",
-        "subjectname": "Analizis 2",
-        "creditvalue": "3",
-        "description": "analizis",
-        "date": "2015-11-08T01:09:04.970Z",
-        "createdAt": "2015-11-08T01:09:04.972Z",
-        "updatedAt": "2015-11-08T01:09:04.972Z",
-        "id": 8
-      }
-    ],
-    "user": [
-      {
-        "forename": "Lajos",
-        "surname": "Molnar",
-        "neptun": "wtcscq",
-        "password": "$2a$10$3/Zb0BqZgA4PX.4rqG8bJehViauGW4gKHUjZrfhp9KcU/D3QRGItS",
-        "role": false,
-        "createdAt": "2015-10-29T13:48:31.027Z",
-        "updatedAt": "2015-11-01T18:46:12.940Z",
-        "id": 1
-      },
-      {
-        "forename": "admin",
-        "surname": "admin",
-        "neptun": "admin",
-        "password": "$2a$10$M37P0ACOdYsyWb5E3m9M5uT82B7D7FrO13Q53mJec9EhFwaqaBdty",
-        "role": true,
-        "createdAt": "2015-10-29T14:11:53.791Z",
-        "updatedAt": "2015-10-29T14:11:53.791Z",
-        "id": 2
-      },
-      {
-        "forename": "asd",
-        "surname": "asd",
-        "neptun": "asd",
-        "password": "$2a$10$jGmWtv61I.XYO0j.69se2uz4MdWdylonjbQA8LXU.roL73/hxzhYa",
-        "role": true,
-        "createdAt": "2015-10-29T16:40:36.188Z",
-        "updatedAt": "2015-10-29T16:40:36.188Z",
-        "id": 3
-      },
-      {
-        "forename": "p",
-        "surname": "p",
-        "neptun": "p",
-        "password": "$2a$10$RdhV5aVHpy1YODP0BWejPefekdBpaRnHayOPrEZxq.Eh9PRQCNYJC",
-        "role": false,
-        "createdAt": "2015-10-30T18:24:03.668Z",
-        "updatedAt": "2015-10-30T18:24:03.668Z",
-        "id": 4
-      },
-      {
-        "forename": "q",
-        "surname": "q",
-        "neptun": "q",
-        "password": "$2a$10$dpcMwqRTnuzpXUTyv/DNW.vZzsWtSfACBLGWJVZ2w1rtRynmjVwwq",
-        "role": false,
-        "createdAt": "2015-10-31T13:07:16.688Z",
-        "updatedAt": "2015-10-31T13:07:16.688Z",
-        "id": 5
-      },
-      {
-        "forename": "o",
-        "surname": "o",
-        "neptun": "o",
-        "password": "$2a$10$P3goEo833jAbPA4I4pvzY.DL2scaMmOhDgLZ3UVS2KirWh8IAP8bm",
-        "role": false,
-        "createdAt": "2015-11-01T21:56:16.320Z",
-        "updatedAt": "2015-11-01T21:56:16.320Z",
-        "id": 6
-      }
-    ],
-    "usrelation": [
-      {
-        "uid": 1,
-        "sid": 7,
-        "createdAt": "2015-11-08T01:09:39.857Z",
-        "updatedAt": "2015-11-08T01:09:39.857Z",
-        "id": 12
-      }
-    ]
+    "subject": [],
+    "user": [],
+    "usrelation": []
   },
   "schema": {
-    "error": {
-      "date": {
-        "type": "datetime"
-      },
-      "status": {
-        "type": "string",
-        "enum": [
-          "new",
-          "assigned",
-          "success",
-          "rejected",
-          "pending"
-        ]
-      },
-      "location": {
-        "type": "string"
-      },
-      "description": {
-        "type": "string"
-      },
-      "creditvalue": {
-        "type": "string"
-      },
-      "user": {
-        "type": "integer",
-        "model": "user",
-        "foreignKey": true,
-        "alias": "user"
-      },
-      "id": {
-        "type": "integer",
-        "autoIncrement": true,
-        "primaryKey": true,
-        "unique": true
-      },
-      "createdAt": {
-        "type": "datetime"
-      },
-      "updatedAt": {
-        "type": "datetime"
-      }
-    },
     "subject": {
       "date": {
         "type": "datetime"
-      },
-      "status": {
-        "type": "string",
-        "enum": [
-          "new",
-          "ready"
-        ]
       },
       "subjectname": {
         "type": "string"
@@ -223,17 +84,8 @@
     }
   },
   "counters": {
-    "error": {
-      "id": 15
-    },
-    "user": {
-      "id": 6
-    },
-    "subject": {
-      "id": 9
-    },
-    "usrelation": {
-      "id": 12
-    }
+    "subject": {},
+    "user": {},
+    "usrelation": {}
   }
 }
