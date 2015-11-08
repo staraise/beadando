@@ -7,11 +7,6 @@ module.exports = {
             defaultsTo: function () { return new Date(); },
             required: true,
         },
-        status: {
-            type: 'string',
-            enum: ['new','ready'],
-            required: true,
-        },
         subjectname: {
             type: 'string',
             required: true,
