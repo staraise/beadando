@@ -24,7 +24,9 @@
 
 ###Folyamatok
 ![Kép felirata](docs/images/masodikkep.PNG)
+
 A fenti ábrán látható egy folyamat. A felhasználó megérkezik a főoldalra. Ezután lehetősége van átlépni a bejelentkező oldalra, ha a felhasználó sikeresen bejelentkezett akkor lehetősége van jelentkezni egy adott tantárgyhoz és azokat a tárgyakat megnézni ahova már jelentkezett.
+
 ![Kép felirata](docs/images/harmadikkep.PNG)
 
 ##Tervezés
@@ -71,7 +73,9 @@ Tanár
 - GET /logout: kijelentkezes
 
 ###Adatbázisterv
+
 ![Kép felirata](docs/images/otodikkep.PNG)
+
 A fenti kép ábrázolja az adatbázis tervet. Az adatbázis 3 táblából áll.
 - User
 - usrelation
