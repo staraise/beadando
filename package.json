@@ -11,6 +11,12 @@
     "express-session": "^1.11.3",
     "express-validator": "^2.17.1",
     "hbs": "^3.1.1",
+    "bcryptjs": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "sails-disk": "*",
+    "sails-memory": "*",
+    "waterline": "*",
     "grunt": "*",
     "grunt-contrib": "*",
     "less": "*"
