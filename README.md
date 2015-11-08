@@ -19,3 +19,4 @@ Biztonságos működés: jelszavak tárolása, funkciókhoz való hozzáférés.
 vendég: a főoldal tartalmához fér hozzá.
 tanuló: a vendég szerepkörén túl tud tantárgyat felvenni.
 tanár: az összes tantárgyat látja és tud felvenni újat.
+![Kép felirata](docs/images/elsokep.png)
