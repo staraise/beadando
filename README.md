@@ -24,6 +24,7 @@
 
 ###Folyamatok
 ![Kép felirata](docs/images/masodikkep.PNG)
+A fenti ábrán látható egy folyamat. A felhasználó megérkezik a főoldalra. Ezután lehetősége van átlépni a bejelentkező oldalra, ha a felhasználó sikeresen bejelentkezett akkor lehetősége van jelentkezni egy adott tantárgyhoz és azokat a tárgyakat megnézni ahova már jelentkezett.
 ![Kép felirata](docs/images/harmadikkep.PNG)
 
 ##Tervezés
@@ -71,6 +72,26 @@ Tanár
 
 ###Adatbázisterv
 ![Kép felirata](docs/images/otodikkep.PNG)
+A fenti kép ábrázolja az adatbázis tervet. Az adatbázis 3 táblából áll.
+- User
+- usrelation
+- subject
+A usrelation tábla egy kapcsolótábla, erre azért volt szükség hogy egy user több tárgyat is feltudjon venni, viszont ezt a különböző diákok ne láthassák.
+
+A subject tábla tartalma:
+- id : Elsődleges kulcs.
+- date : Ebben a mezőben tárolom a dátumot amikor az adott tantárgy létre lett hozva
+- subjectname : A tantárgy neve.
+- description : Tantárgy leírása.
+- creditvalue : Tantárgy kreditértéke.
+
+A user tábla tartalma:
+- id : Elsődleges kulcs.
+- neptun : A felhasználó neptun kódja.
+- password : A felhasználó jelszava.
+- surname : Vezetéknév.
+- forename : Keresztnév.
+- role : A felhasználó szerepe. Lehet tanár vagy diák.
 
 ##Tesztelés
 A teszteléshez a mocha, chai modulokat használtam. És ezek segitségével teszteltem.
