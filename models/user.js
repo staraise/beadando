@@ -1,6 +1,7 @@
 var bcrypt = require('bcryptjs');
 module.exports = {
     identity: 'user',
+    migrate: 'safe',
     connection: 'default',
     attributes: {
         neptun: {

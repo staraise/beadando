@@ -1,5 +1,6 @@
 module.exports = {
     identity: 'usrelation',
+    migrate: 'safe',
     connection: 'default',
     attributes: {
         uid: {

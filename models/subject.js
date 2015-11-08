@@ -1,4 +1,5 @@
 module.exports = {
+    migrate: 'safe',
     identity: 'subject',
     connection: 'default',
     attributes: {
