@@ -109,7 +109,7 @@ majd pedig teszteltem hogyha olyan oldalra próbál a felhasználó menni ahova 
 És hogy itt sikeresen bejelentkezik-e a megadott paraméterekkel.
 
 ##Felhasználói dokumentáció
-Az oldal a ... oldalon érhető el.
+Az oldal a https://wtcscqbeadando.herokuapp.com oldalon érhető el.
 
 Ha tanárként akarunk bejelentkezni akkor használjuk az admin felhasználó nevet admin jelszóval.
 
