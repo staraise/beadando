@@ -148,9 +148,13 @@ Miután meglátogattuk az oldalt az üdvözlőkép fogad minket itt választhatu
 ![Kép felirata](docs/images/10.JPG)
 Ha a neptun kód még nem foglalt akkor a regisztráció sikeres és átirányít a bejelentkezett felhasználókat üdvözlő képernyőre.
 
+## Diákként
+
 Ha a bejelentkezett felhasználó diák akkor két lehetőség közül választhat a menüben. Vagy regisztrál meghirdetett tantárgyakra vagy pedig megnézi hogy milyen tárgyakat vett már fel.
 ![Kép felirata](docs/images/11.JPG)
 ![Kép felirata](docs/images/12.JPG)
+
+## Tanárként
 
 Ha a bejelentkezett felhasználó tanár akkor két lehetőség közül választhat a menüben. Vagy létrehoz egy új tantárgyat vagy pedig az összes eddigi tantárgyat szerkeszti/megnézi.
 
